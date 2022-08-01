@@ -1,0 +1,15 @@
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_SumOfTwo\bin\Debug\net6.0\P001_SumOfTwo.exe
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_SumOfTwo\bin\Debug\net6.0\P001_SumOfTwo.deps.json
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_SumOfTwo\bin\Debug\net6.0\P001_SumOfTwo.runtimeconfig.json
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_SumOfTwo\bin\Debug\net6.0\P001_SumOfTwo.dll
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_SumOfTwo\bin\Debug\net6.0\P001_SumOfTwo.pdb
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_SumOfTwo\obj\Debug\net6.0\P001_SumOfTwo.csproj.AssemblyReference.cache
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_SumOfTwo\obj\Debug\net6.0\P001_SumOfTwo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_SumOfTwo\obj\Debug\net6.0\P001_SumOfTwo.AssemblyInfoInputs.cache
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_SumOfTwo\obj\Debug\net6.0\P001_SumOfTwo.AssemblyInfo.cs
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_SumOfTwo\obj\Debug\net6.0\P001_SumOfTwo.csproj.CoreCompileInputs.cache
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_SumOfTwo\obj\Debug\net6.0\P001_SumOfTwo.dll
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_SumOfTwo\obj\Debug\net6.0\refint\P001_SumOfTwo.dll
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_SumOfTwo\obj\Debug\net6.0\P001_SumOfTwo.pdb
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_SumOfTwo\obj\Debug\net6.0\P001_SumOfTwo.genruntimeconfig.cache
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_SumOfTwo\obj\Debug\net6.0\ref\P001_SumOfTwo.dll
