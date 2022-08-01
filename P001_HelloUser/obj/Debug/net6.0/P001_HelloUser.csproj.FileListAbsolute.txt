@@ -1,0 +1,15 @@
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_HelloUser\bin\Debug\net6.0\P001_HelloUser.exe
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_HelloUser\bin\Debug\net6.0\P001_HelloUser.deps.json
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_HelloUser\bin\Debug\net6.0\P001_HelloUser.runtimeconfig.json
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_HelloUser\bin\Debug\net6.0\P001_HelloUser.dll
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_HelloUser\bin\Debug\net6.0\P001_HelloUser.pdb
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_HelloUser\obj\Debug\net6.0\P001_HelloUser.csproj.AssemblyReference.cache
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_HelloUser\obj\Debug\net6.0\P001_HelloUser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_HelloUser\obj\Debug\net6.0\P001_HelloUser.AssemblyInfoInputs.cache
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_HelloUser\obj\Debug\net6.0\P001_HelloUser.AssemblyInfo.cs
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_HelloUser\obj\Debug\net6.0\P001_HelloUser.csproj.CoreCompileInputs.cache
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_HelloUser\obj\Debug\net6.0\P001_HelloUser.dll
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_HelloUser\obj\Debug\net6.0\refint\P001_HelloUser.dll
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_HelloUser\obj\Debug\net6.0\P001_HelloUser.pdb
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_HelloUser\obj\Debug\net6.0\P001_HelloUser.genruntimeconfig.cache
+C:\Users\verlo\Desktop\Penguins\DOCUMENTS\Programming\GB\P001\P001_HelloUser\obj\Debug\net6.0\ref\P001_HelloUser.dll
