@@ -95,6 +95,6 @@ while (i <= num)
             Console.Write(i);
         }
     }
-      
+
     i++;
 }
