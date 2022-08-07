@@ -51,10 +51,53 @@ newText = Replace(newText, 'к', 'К');
 newText = Replace(newText, 'В', 'в');
 // Console.WriteLine(newText);
 
-// Задача 2. Упорядочить массив
+// Задача 2. Упорядочить массив (от меньшего к большему)
 //
 // Как решать?
 // 1. Найти позицию минимального элемента в неотсортированной части массива
+// 2. Произвести обмен этого значения со значением первой неотсортированной позиции
+// 3. Повторять пока есть не отсортированные элементы
+
+// int[] arr = { 1, 5, 4, 3, 2, 6, 7, 1, 1 };
+
+// void PrintArray(int[] array)
+// {
+//     int count = array.Length;
+
+//     for (int i = 0; i < count; i++)
+//     {
+//         Console.Write($"{array[i]} ");
+//     }
+//     Console.WriteLine();
+// }
+
+// void SellectionSort(int[] array)
+// {
+    
+//     for (int i = 0; i < array.Length -1 ; i++) // (array.Length -1) т.к. в стрю 81 j = i +1
+//     {
+//         int minPosition = i;
+
+//         for (int j = i + 1; j < array.Length; j++)
+//         {
+//             if(array[j] < array[minPosition]) minPosition = j;
+//         }
+
+//         int temporary = array[i];
+//         array[i] = array [minPosition];
+//         array [minPosition] = temporary;
+
+//     }
+// }
+
+// // PrintArray(arr);
+// SellectionSort(arr);
+// // PrintArray(arr);
+
+// Задача 3. Упорядочить массив (от большего к меньшему)
+//
+// Как решать?
+// 1. Найти позицию максимального элемента в неотсортированной части массива
 // 2. Произвести обмен этого значения со значением первой неотсортированной позиции
 // 3. Повторять пока есть не отсортированные элементы
 
@@ -76,17 +119,16 @@ void SellectionSort(int[] array)
     
     for (int i = 0; i < array.Length -1 ; i++) // (array.Length -1) т.к. в стрю 81 j = i +1
     {
-        int minPosition = i;
+        int maxPosition = i;
 
         for (int j = i + 1; j < array.Length; j++)
         {
-            if(array[j] < array[minPosition]) minPosition = j;
+            if(array[j] > array[maxPosition]) maxPosition = j;
         }
 
         int temporary = array[i];
-        array[i] = array [minPosition];
-        array [minPosition] = temporary;
-
+        array[i] = array [maxPosition];
+        array [maxPosition] = temporary;
     }
 }
 
