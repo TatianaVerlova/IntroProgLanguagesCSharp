@@ -1,4 +1,6 @@
-﻿void FillArray(int[] collection)
+﻿// Задача: Дана длина массива. Нужно заполнить его случайными числами. Дано некоторое число. Нужно найти индекс этого числа
+
+void FillArray(int[] collection)
 {
     int length = collection.Length;
     int index = 0;
