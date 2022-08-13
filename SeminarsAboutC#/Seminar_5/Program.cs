@@ -186,8 +186,8 @@ void PrintArray(int[] array)
     Console.WriteLine();
 }
 
-int[] array1 = {2,4,6,8};
-int[] array2 = {1,3,5,7};
+int[] array1 = {1,3,5,7};
+int[] array2 = {2,4,6,8};
 
 int[] result = new int[array1.Length + array2.Length];
 

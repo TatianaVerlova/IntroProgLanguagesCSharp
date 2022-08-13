@@ -80,21 +80,7 @@
 Console.Write("Введите число: ");
 int num = int.Parse(Console.ReadLine());
 
-int i = 1;
-
-while (i <= num)
+for (int i = 2; i <=num; i +=2)
 {
-    if (i % 2 == 0)
-    {
-        if (i < num)
-        {
-            Console.Write(i + ", ");
-        }
-        else
-        {
-            Console.Write(i);
-        }
-    }
-
-    i++;
+    Console.Write(i + ", ");
 }

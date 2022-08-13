@@ -131,73 +131,62 @@
 //     }
 // }
 
-// double res = min + max;
-// Console.WriteLine("Сумма максимального и минимального элементов массива составляет " + res);
+// double res = max - min;
+// Console.WriteLine("Разница между максимальным и минимальным элементами массива составляет " + res);
 
 
 
 // ***************************************************************************************************************************************
 
-// Дополнительное задание - задача, которую мы не успели решить на вебинаре. Если пойдет сложно, то разберем в начале следующего занятия.
-// Задача 37: Найдите произведение пар чисел в одномерном массиве. Парой считаем первый и последний элемент, второй и предпоследний и т.д.
+// Дополнительное задание. Задача 37: Найдите произведение пар чисел в одномерном массиве. Парой считаем первый и последний элемент, 
+// второй и предпоследний и т.д.
 // Результат запишите в новом массиве.
 // [1 2 3 4 5] -> 5 8 3
 // [6 7 3 6] -> 36 21
 
-int[] FillArray(int size)
-{
-    int[] array = new int[size];
-    Random rnd = new Random();
+// int[] FillArray(int size)
+// {
+//     int[] array = new int[size];
+//     Random rnd = new Random();
 
-    for(int i = 0; i < size; i++)
-    {
-        array[i] = rnd.Next(0, 10);
-    }
+//     for(int i = 0; i < size; i++)
+//     {
+//         array[i] = rnd.Next(0, 10);
+//     }
 
-    return array;
-}
+//     return array;
+// }
 
-void PrintArray(int[] array)
-{
-    for(int i = 0; i < array.Length; i++)
-    {
-        Console.Write(array[i] + " ");
-    }
-    Console.WriteLine();
-}
+// void PrintArray(int[] array)
+// {
+//     for(int i = 0; i < array.Length; i++)
+//     {
+//         Console.Write(array[i] + " ");
+//     }
+//     Console.WriteLine();
+// }
 
-Console.WriteLine("Укажите длину массива: ");
-int size = int.Parse(Console.ReadLine());
-int[] arr = FillArray(size);
-PrintArray(arr);
+// Console.WriteLine("Укажите длину массива: ");
+// int size = int.Parse(Console.ReadLine());
+// int[] arr = FillArray(size);
+// PrintArray(arr);
 
-int length = 0;
+// int[] arr2 = new int[arr.Length / 2 + arr.Length % 2];
 
-if(arr.Length % 2 == 0)
-{
-    length = arr.Length / 2;
-}
-else
-{
-    length = arr.Length / 2 + 1;
-}
+// if(arr.Length % 2 == 0)
+// {
+//     for(int i = 0; i < arr2.Length; i++)
+//     {
+//         arr2[i] = arr[i] * arr[arr.Length - i - 1];
+//     }
+// }
+// else
+// {
+//     for(int i = 0; i < (arr2.Length - 1); i++)
+//     {
+//         arr2[i] = arr[i] * arr[arr.Length - i - 1];
+//     }
+//     arr2[arr2.Length - 1] = arr[arr.Length / 2];
+// }
 
-int[] arr2 = new int[length];
-
-if(arr.Length % 2 == 0)
-{
-    for(int i = 0; i < arr2.Length; i++)
-    {
-        arr2[i] = arr[i] * arr[arr.Length - i - 1];
-    }
-}
-else
-{
-    for(int i = 0; i < (arr2.Length - 1); i++)
-    {
-        arr2[i] = arr[i] * arr[arr.Length - i - 1];
-    }
-    arr2[arr2.Length - 1] = arr[arr.Length / 2];
-}
-
-PrintArray(arr2);
+// PrintArray(arr2);

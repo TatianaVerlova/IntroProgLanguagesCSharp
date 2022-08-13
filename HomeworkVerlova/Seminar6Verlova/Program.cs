@@ -14,8 +14,7 @@
 //     for(int i = 0; i < length; i++)
 //     {
 //         Console.Write("Введите число: ");
-//         int n = int.Parse(Console.ReadLine());
-//         array[i] = n;
+//         array[i] = int.Parse(Console.ReadLine());
 //     }
 //     return array;
 // }
@@ -53,7 +52,13 @@ double b2 = double.Parse(Console.ReadLine());
 Console.Write("Введите значение k2: ");
 double k2 = double.Parse(Console.ReadLine());
 
-double x = (b2 - b1) / (k1 - k2);
-double y = k1 * x + b1;
-
-Console.Write("Точка пересечения двух прямых (" + x + "; " + y + ")");
+if(k1 != k2)
+{
+    double x = (b2 - b1) / (k1 - k2);
+    double y = k1 * x + b1;
+    Console.Write("Точка пересечения двух прямых (" + x + "; " + y + ")");
+}
+else
+{
+    Console.Write("Прямые параллельны");
+}

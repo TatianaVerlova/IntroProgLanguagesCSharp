@@ -21,22 +21,37 @@
 // *********************************************************************************************************************************
 
 // Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
-//
 // 645 -> 5
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
 // Console.WriteLine("Enter a number: ");
-// string numString = Console.ReadLine();
-// int num = int.Parse(numString);
+// int num = int.Parse(Console.ReadLine());
 
-// if (num >= 100)
+// int number = num;
+// int count = 0;
+
+// while (number != 0)
 // {
-//     Console.WriteLine(numString[2]);
+//     number = number / 10;
+//     count++;
+// }
+
+// int[] numArray = new int[count];
+
+// for (int i = numArray.Length - 1; i >= 0; i--)
+// {
+//     numArray[i] = num % 10;
+//     num = num / 10;
+// }
+
+// if (count < 3)
+// {
+//     Console.WriteLine("третьей цифры нет");
 // }
 // else
 // {
-//     Console.WriteLine("третьей цифры нет");
+//     Console.WriteLine(numArray[2]);
 // }
 
 
@@ -57,9 +72,13 @@
 // {
 //     Console.Write("да");
 // }
-// else
+// else if(number > 0 && number < 6)
 // {
 //     Console.Write("нет");
+// }
+// else
+// {
+//    Console.Write("такого дня недели нет");
 // }
 
 
@@ -70,26 +89,23 @@
 // (включительно). После, попробуйте поэксперментировать с величиной значения N и понаблюдать за тем, как оно влияет на время 
 //выполнения программы.
 
-// Console.Write("Введите число: ");
-// int num = int.Parse(Console.ReadLine());
+Console.Write("Введите число: ");
+int num = int.Parse(Console.ReadLine());
 
-// int i = 2;
-
-// while (i <= num)
-// {
-//     int j = 2;
-//     int k = 0;
-//     while (j*j <= i && k != 1)
-//     {
-//         if (i % j == 0)
-//         {
-//             k = 1;
-//         }
-//         j++;
-//     }
-//     if (k != 1)
-//     {
-//         Console.Write(i + " ");
-//     }
-//     i++;
-// }
+for(int i = 2; i <= num; i++)
+{
+    int j = 2;
+    int k = 0;
+    while (j*j <= i && k != 1)
+    {
+        if (i % j == 0)
+        {
+            k = 1;
+        }
+        j++;
+    }
+    if (k != 1)
+    {
+        Console.Write(i + " ");
+    }
+}

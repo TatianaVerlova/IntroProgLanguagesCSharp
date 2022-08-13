@@ -15,7 +15,7 @@
 //     int res = 1;
 //     for(int i = 0; i < b; i++)
 //     {
-//         res = res * a;
+//         res *= a;
 //     }
 //     return res;
 // }
@@ -29,20 +29,20 @@
 // 82 -> 10
 // 9012 -> 12
 
-Console.WriteLine("Введите число: ");
-int numInput = int.Parse(Console.ReadLine());
-Console.WriteLine("Сумма цифр в этом числе составляет " + GetSumOfDigits(numInput));
+// Console.WriteLine("Введите число: ");
+// int numInput = int.Parse(Console.ReadLine());
+// Console.WriteLine("Сумма цифр в этом числе составляет " + GetSumOfDigits(numInput));
 
-int GetSumOfDigits(int num)
-{
-    int sum = 0;
-    while(num > 0)
-    {
-        sum += num % 10;
-        num /= 10;
-    }
-    return sum;
-}
+// int GetSumOfDigits(int num)
+// {
+//     int sum = 0;
+//     while(num > 0)
+//     {
+//         sum += num % 10;
+//         num /= 10;
+//     }
+//     return sum;
+// }
 
 
 
